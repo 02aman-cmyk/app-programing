@@ -1,6 +1,3 @@
-앱 프로그래밍 기말 과제
-20231502 김가연
-
 import streamlit as st
 # --- 데이터 사전 ---
 # PROVERB_DATA: 수업에 사용할 속담 데이터를 교사가 사전에 저장하는 공간
@@ -177,4 +174,5 @@ if st.button("속담 탐색 시작", key='run_comparison', disabled=not st.sessi
 # 구분선을 표시
 st.markdown("---")
 # 앱의 작동 모드에 대한 설명을 작은 글씨로 표시
+
 st.caption("AI-TPACK의 T요소: 정적 데이터를 활용한 관계 시각화")
