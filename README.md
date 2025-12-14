@@ -1,21 +1,3 @@
-import streamlit as st
-
-st.title("안녕하세요 가연이의 앱이에여! 👋")
-st.markdown(
-    """ 
-    여기서 여러가지 작품을 보여드리게용
-
-    **There's :rainbow[so much] you can build!**
-    
-    We prepared a few examples for you to get started. Just 
-    click on the buttons above and discover what you can do 
-    with Streamlit. 
-    """
-)
-
-if st.button("Send balloons!"):
-    st.balloons()
-
 # app-programing
 # Streamlit 라이브러리를 가져옴 웹 앱의 UI 구성에 사용
 import streamlit as st
